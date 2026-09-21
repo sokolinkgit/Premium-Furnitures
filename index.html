@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Furnitures - Quality Furniture for Every Home | Best Prices in Kenya</title>
+    <meta name="description" content="Shop premium quality sofas, dining sets, beds & office furniture. Delivery available. Order via WhatsApp: 0718 574 880. Best prices guaranteed!">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <i class="fas fa-bell"></i>
+        🔥 HOT DEAL: Up to 20% OFF on Selected Living Room Sets This Week Only! — Call/WhatsApp 0718 574 880
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-couch"></i>
+                Premium Furnitures
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li>
+                    <div class="cart-icon" data-cart-toggle>
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </div>
+                </li>
+            </ul>
+            <div class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (High-Converting) -->
+    <section class="hero">
+        <div class="hero-content">
+            <div style="display:inline-block; background:#ff4444; color:white; padding:6px 18px; border-radius:30px; font-size:0.85rem; font-weight:bold; margin-bottom:20px; animation: fadeInUp 1s ease both;">
+                ⭐ TRUSTED BY 500+ HAPPY CUSTOMERS
+            </div>
+            <h1>Transform Your Home Into a Masterpiece</h1>
+            <p>Premium Quality Furniture for Every Room — Durable, Elegant & Affordable. <br>Delivery Available Right to Your Doorstep.</p>
+            <div class="hero-buttons">
+                <a href="products.html" class="btn btn-primary">
+                    <i class="fas fa-shopping-bag"></i> Shop Now — Browse
+                </a>
+                <a href="https://wa.me/254718574880" target="_blank" class="btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                </a>
+            </div>
+            <div class="hero-trust">
+                <span><i class="fas fa-check-circle"></i> Quality Assured</span>
+                <span><i class="fas fa-check-circle"></i> Delivery Available</span>
+                <span><i class="fas fa-check-circle"></i> 500+ Happy Customers</span>
+                <span><i class="fas fa-check-circle"></i> Instant WhatsApp Support</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Strip -->
+    <div class="trust-strip">
+        <div class="container">
+            <div class="trust-strip-grid">
+                <div class="trust-item">
+                    <i class="fas fa-truck-fast"></i>
+                    <strong>Delivery Available</strong>
+                    <span>To your doorstep countrywide</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-shield-halved"></i>
+                    <strong>Quality Guaranteed</strong>
+                    <span>Premium materials & craftsmanship</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <strong>Order via WhatsApp</strong>
+                    <span>Fast & convenient ordering</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-phone-volume"></i>
+                    <strong>Support: 0718 574 880</strong>
+                    <span>Call us Mon-Sat, 8am-7pm</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-star"></i>
+                    <strong>4.8 / 5 Rating</strong>
+                    <span>From 50+ verified reviews</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Products + Slideshow Section -->
+    <section class="section" style="background: var(--white);">
+        <div class="container">
+            <div class="section-header">
+                <h2>🔥 Hot Deals & Featured Furniture</h2>
+                <p>Handpicked bestsellers at unbeatable prices — limited stock available!</p>
+            </div>
+
+            <!-- Offer Banner with Countdown -->
+            <div class="offer-banner">
+                <div class="offer-banner-text">
+                    <h3>⚡ Flash Sale Ends Soon!</h3>
+                    <p>Get up to 20% OFF on selected items — order today before stock runs out!</p>
+                </div>
+                <div class="countdown" id="countdown">
+                    <div class="countdown-box">
+                        <span class="countdown-num" id="cdDays">02</span>
+                        <span class="countdown-label">DAYS</span>
+                    </div>
+                    <div class="countdown-box">
+                        <span class="countdown-num" id="cdHours">14</span>
+                        <span class="countdown-label">HRS</span>
+                    </div>
+                    <div class="countdown-box">
+                        <span class="countdown-num" id="cdMins">35</span>
+                        <span class="countdown-label">MIN</span>
+                    </div>
+                    <div class="countdown-box">
+                        <span class="countdown-num" id="cdSecs">22</span>
+                        <span class="countdown-label">SEC</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products grid with right-side slideshow -->
+            <div class="products-with-slideshow">
+                <!-- Products Left Side -->
+                <div>
+                    <div class="mini-products-grid" id="featuredProducts"></div>
+                    <div style="text-align: center; margin-top: 35px;">
+                        <a href="products.html" class="btn btn-primary" style="font-size:1.05rem; padding:14px 35px;">
+                            <i class="fas fa-th-large"></i> View All Products &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Slideshow Right Side -->
+                <aside class="slideshow-panel">
+                    <div class="slideshow-header">
+                        <h3><i class="fas fa-fire"></i> Hot Picks</h3>
+                        <span class="slideshow-badge">LIVE</span>
+                    </div>
+                    <div class="slideshow-progress">
+                        <div class="slideshow-progress-bar" id="slideProgress"></div>
+                    </div>
+                    <div class="slideshow-container" id="slideshowContainer">
+                        <!-- Slides injected by JS -->
+                        <div class="slide-dots" id="slideDots"></div>
+                    </div>
+                    <div class="slideshow-actions" id="slideshowActions"></div>
+                </aside>
+            </div>
+
+            <!-- Urgency Strip -->
+            <div class="urgency-strip">
+                <p><i class="fas fa-exclamation-triangle"></i><strong>Limited Stock Available!</strong> Popular items sell fast. Contact us on WhatsApp now to confirm availability and secure your order.</p>
+                <a href="https://wa.me/254718574880" target="_blank" class="btn btn-whatsapp" style="margin-top:15px;">
+                    <i class="fab fa-whatsapp"></i> Check Availability Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Shop by Category</h2>
+                <p>Find the perfect furniture for every room in your home or office</p>
+            </div>
+            <div class="categories-grid">
+                <a href="products.html" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600" alt="Living Room">
+                    <div class="category-overlay">
+                        <h3>Living Room</h3>
+                        <p>Sofas, Coffee Tables, TV Stands & More</p>
+                    </div>
+                </a>
+                <a href="products.html" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600" alt="Dining Room">
+                    <div class="category-overlay">
+                        <h3>Dining Room</h3>
+                        <p>Dining Tables, Chairs & Bar Stools</p>
+                    </div>
+                </a>
+                <a href="products.html" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600" alt="Bedroom">
+                    <div class="category-overlay">
+                        <h3>Bedroom</h3>
+                        <p>Beds, Wardrobes & Bedside Tables</p>
+                    </div>
+                </a>
+                <a href="products.html" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=600" alt="Office">
+                    <div class="category-overlay">
+                        <h3>Office</h3>
+                        <p>Desks, Chairs & Storage Solutions</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mini Testimonials -->
+    <section class="section mini-testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+                <p>Real reviews from real customers across Kenya</p>
+            </div>
+            <div class="mini-testis-grid">
+                <div class="mini-testi">
+                    <div class="mini-testi-quote">"</div>
+                    <p>"Absolutely love my new sofa! The quality is outstanding and it was delivered right on time. Highly recommend Premium Furnitures to everyone."</p>
+                    <div class="mini-testi-author">
+                        <div class="mini-testi-avatar">A</div>
+                        <div>
+                            <div class="mini-testi-name">Alice W.</div>
+                            <div class="mini-testi-stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mini-testi">
+                    <div class="mini-testi-quote">"</div>
+                    <p>"The dining set is a perfect centerpiece for our home. Sturdy build and elegant design. Worth every shilling. Will definitely buy again!"</p>
+                    <div class="mini-testi-author">
+                        <div class="mini-testi-avatar">B</div>
+                        <div>
+                            <div class="mini-testi-name">Brian K.</div>
+                            <div class="mini-testi-stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mini-testi">
+                    <div class="mini-testi-quote">"</div>
+                    <p>"Excellent customer service and the bed frame is exactly what we wanted. Ordering through WhatsApp was so easy and convenient."</p>
+                    <div class="mini-testi-author">
+                        <div class="mini-testi-avatar">C</div>
+                        <div>
+                            <div class="mini-testi-name">Carol M.</div>
+                            <div class="mini-testi-stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="reviews.html" class="btn btn-primary">
+                    <i class="fas fa-comments"></i> Read All 50+ Reviews
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantees -->
+    <section class="section" style="background: var(--light);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Shop With Confidence</h2>
+                <p>Your satisfaction is our top priority</p>
+            </div>
+            <div class="guarantees-row">
+                <div class="guarantee-item">
+                    <i class="fas fa-medal"></i>
+                    <div>
+                        <strong>Premium Quality</strong>
+                        <span>Hand-picked durable furniture</span>
+                    </div>
+                </div>
+                <div class="guarantee-item">
+                    <i class="fas fa-truck"></i>
+                    <div>
+                        <strong>Delivery Available</strong>
+                        <span>To your doorstep (fees apply)</span>
+                    </div>
+                </div>
+                <div class="guarantee-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <div>
+                        <strong>Instant Orders</strong>
+                        <span>One-click WhatsApp ordering</span>
+                    </div>
+                </div>
+                <div class="guarantee-item">
+                    <i class="fas fa-headset"></i>
+                    <div>
+                        <strong>24/7 Support</strong>
+                        <span>Call: 0718 574 880</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="section" style="background: linear-gradient(rgba(139,69,19,0.92), rgba(92,46,10,0.92)), url('https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=1600') center/cover; color: white;">
+        <div class="container" style="text-align: center;">
+            <h2 style="font-size: 2.5rem; margin-bottom: 15px;">🛋️ Ready to Upgrade Your Space?</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 10px; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Don't wait — your dream home is just one message away!
+            </p>
+            <p style="font-size: 1.05rem; margin-bottom: 30px; opacity: 0.9;">
+                📞 Call us now at <strong style="font-size:1.3rem;">0718 574 880</strong> or click below to browse our full collection.
+            </p>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <a href="products.html" class="btn btn-primary" style="background: var(--white); color: var(--primary); font-size:1.05rem;">
+                    <i class="fas fa-eye"></i> Browse All Products
+                </a>
+                <a href="https://wa.me/254718574880" target="_blank" class="btn btn-whatsapp" style="font-size:1.05rem;">
+                    <i class="fab fa-whatsapp"></i> WhatsApp: 0718 574 880
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4><i class="fas fa-couch"></i> Premium Furnitures</h4>
+                    <p>Your one-stop shop for quality furniture. We provide elegant and durable furniture pieces for every room in your home or office.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/254718574880"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="products.html">Living Room</a></li>
+                        <li><a href="products.html">Dining Room</a></li>
+                        <li><a href="products.html">Bedroom</a></li>
+                        <li><a href="products.html">Office Furniture</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> 0718 574 880</p>
+                    <p><i class="fab fa-whatsapp"></i> WhatsApp: 0718574880</p>
+                    <p><i class="fas fa-truck"></i> Delivery Available</p>
+                    <p><i class="fas fa-clock"></i> Mon-Sat: 8am - 7pm</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Premium Furnitures. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3><i class="fas fa-shopping-cart"></i> Your Cart</h3>
+            <button class="cart-close"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items" id="cartItems"></div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">KSh 0</span>
+            </div>
+            <button class="btn btn-whatsapp" style="width: 100%; justify-content: center;" onclick="checkoutWhatsApp()">
+                <i class="fab fa-whatsapp"></i> Order via WhatsApp
+            </button>
+        </div>
+    </div>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/254718574880" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

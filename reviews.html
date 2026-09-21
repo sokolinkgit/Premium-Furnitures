@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews - Premium Furnitures</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-couch"></i>
+                Premium Furnitures
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reviews.html" class="active">Reviews</a></li>
+                <li>
+                    <div class="cart-icon" data-cart-toggle>
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </div>
+                </li>
+            </ul>
+            <div class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Customer Reviews</h1>
+            <p>See what our happy customers have to say</p>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="section">
+        <div class="container">
+            <div class="reviews-summary">
+                <div class="average-rating">4.8</div>
+                <div class="stars">★★★★★</div>
+                <div class="reviews-count">Based on 50+ verified customer reviews</div>
+                <a href="https://wa.me/254718574880" target="_blank" class="btn btn-whatsapp" style="margin-top: 20px;">
+                    <i class="fab fa-whatsapp"></i> Share Your Experience
+                </a>
+            </div>
+            
+            <div class="reviews-grid" id="reviewsContainer"></div>
+
+            <div style="text-align: center; margin-top: 50px; padding: 40px; background: var(--white); border-radius: 15px; box-shadow: var(--shadow);">
+                <h3 style="color: var(--primary); margin-bottom: 15px;">Have You Shopped With Us?</h3>
+                <p style="color: var(--gray); margin-bottom: 25px; max-width: 500px; margin-left: auto; margin-right: auto;">We'd love to hear about your experience! Send us your feedback on WhatsApp and we may feature your review here.</p>
+                <a href="https://wa.me/254718574880?text=Hello%20Premium%20Furnitures!%20I'd%20like%20to%20leave%20a%20review%20about%20my%20experience." target="_blank" class="btn btn-primary">
+                    <i class="fab fa-whatsapp"></i> Leave a Review
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4><i class="fas fa-couch"></i> Premium Furnitures</h4>
+                    <p>Your one-stop shop for quality furniture. We provide elegant and durable furniture pieces for every room in your home or office.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/254718574880"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="products.html">Living Room</a></li>
+                        <li><a href="products.html">Dining Room</a></li>
+                        <li><a href="products.html">Bedroom</a></li>
+                        <li><a href="products.html">Office Furniture</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> 0718 574 880</p>
+                    <p><i class="fab fa-whatsapp"></i> WhatsApp: 0718574880</p>
+                    <p><i class="fas fa-truck"></i> Delivery Available</p>
+                    <p><i class="fas fa-clock"></i> Mon-Sat: 8am - 7pm</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Premium Furnitures. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3><i class="fas fa-shopping-cart"></i> Your Cart</h3>
+            <button class="cart-close"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items" id="cartItems"></div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">KSh 0</span>
+            </div>
+            <button class="btn btn-whatsapp" style="width: 100%; justify-content: center;" onclick="checkoutWhatsApp()">
+                <i class="fab fa-whatsapp"></i> Order via WhatsApp
+            </button>
+        </div>
+    </div>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/254718574880" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
