@@ -1,399 +1,882 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium Furnitures - Quality Furniture for Every Home | Best Prices in Kenya</title>
-    <meta name="description" content="Shop premium quality sofas, dining sets, beds & office furniture. Delivery available. Order via WhatsApp: 0718 574 880. Best prices guaranteed!">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Art Furniture and Designs | Every Furniture Variety, Built in Kiambu</title>
+<meta name="description" content="Smart Art Furniture and Designs builds sofas, dining sets, beds, mattresses, wardrobes, office, outdoor, kids, hotel and commercial furniture in Kiambu and delivers countrywide. Call or WhatsApp 0722 824 703.">
+<meta name="theme-color" content="#1b1611">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Smart Art Furniture and Designs | Every Furniture Variety, Built in Kiambu">
+<meta property="og:description" content="Smart Art Furniture and Designs builds sofas, dining sets, beds, mattresses, wardrobes, office, outdoor, kids, hotel and commercial furniture in Kiambu and delivers countrywide. Call or WhatsApp 0722 824 703.">
+<meta property="og:image" content="assets/img/hero-living.jpg">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('safd_theme');
+      if (saved) {
+        document.documentElement.setAttribute('data-theme', JSON.parse(saved));
+      } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    } catch (e) {}
+  })();
+</script>
 </head>
 <body>
-    <!-- Announcement Bar -->
-    <div class="announcement-bar">
-        <i class="fas fa-bell"></i>
-        🔥 HOT DEAL: Up to 20% OFF on Selected Living Room Sets This Week Only! — Call/WhatsApp 0718 574 880
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4.5 12h15M13 5.5l6.5 6.5-6.5 6.5"/></symbol>
+  <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="m14 6-6 6 6 6"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></symbol>
+  <symbol id="i-cart" viewBox="0 0 24 24"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.55h7.6a2 2 0 0 0 2-1.55L21 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20.4S4 15.6 4 10.2A4.2 4.2 0 0 1 12 7.6a4.2 4.2 0 0 1 8 2.6c0 5.4-8 10.2-8 10.2Z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2.6v2.2M12 19.2v2.2M4.7 4.7l1.6 1.6M17.7 17.7l1.6 1.6M2.6 12h2.2M19.2 12h2.2M4.7 19.3l1.6-1.6M17.7 6.3l1.6-1.6"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.5l2.7 5.5 6 .9-4.35 4.2 1 5.95L12 17.2 6.65 20.05l1-5.95L3.3 9.9l6-.9L12 3.5Z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M4.5 12.5l4.6 4.6L19.5 6.5"/></symbol>
+  <symbol id="i-truck" viewBox="0 0 24 24"><path d="M2 7.5h11V16H2zM13 10.5h4l3.5 3.5V16H13"/><circle cx="6.2" cy="17.6" r="1.7"/><circle cx="17.4" cy="17.6" r="1.7"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3.2l7 2.6v5.6c0 4.3-3 7.7-7 9.1-4-1.4-7-4.8-7-9.1V5.8l7-2.6Z"/><path d="M8.8 11.8l2.3 2.3 4.2-4.4"/></symbol>
+  <symbol id="i-ruler" viewBox="0 0 24 24"><path d="M3.5 9.5h17v5h-17z"/><path d="M8 9.5v2.2M12 9.5v2.8M16 9.5v2.2"/></symbol>
+  <symbol id="i-coins" viewBox="0 0 24 24"><ellipse cx="12" cy="6.5" rx="6.5" ry="2.6"/><path d="M5.5 6.5v5c0 1.4 2.9 2.6 6.5 2.6s6.5-1.2 6.5-2.6v-5"/><path d="M5.5 11.5v5c0 1.4 2.9 2.6 6.5 2.6s6.5-1.2 6.5-2.6v-5"/></symbol>
+  <symbol id="i-headset" viewBox="0 0 24 24"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><path d="M4 14h2.4v5H5.2A1.2 1.2 0 0 1 4 17.8V14ZM20 14h-2.4v5h1.2A1.2 1.2 0 0 0 20 17.8V14Z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21c4-4.6 6-7.8 6-10.2a6 6 0 1 0-12 0C6 13.2 8 16.4 12 21Z"/><circle cx="12" cy="10.6" r="2.2"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.5 3.5h2.6l1.9 4.2-2.1 1.4a11.5 11.5 0 0 0 5.5 5.5l1.4-2.1 4.2 1.9v2.6a2 2 0 0 1-2.2 2A16.2 16.2 0 0 1 4.5 5.7a2 2 0 0 1 2-2.2Z"/></symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.53.15-.17.2-.3.3-.5.1-.19.05-.36-.03-.51-.07-.15-.66-1.61-.91-2.2-.24-.58-.48-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.06 2.87 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.42-.08-.12-.28-.2-.58-.34M12.05 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.9 11.9 0 0 0 5.69 1.45h.01c6.55 0 11.89-5.34 11.89-11.9 0-3.17-1.24-6.15-3.49-8.39"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+  <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9.5 7V4.8h5V7M6.5 7l.9 13h9.2l.9-13"/></symbol>
+  <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3.5l1.9 5.1 5.1 1.9-5.1 1.9L12 17.5l-1.9-5.1L5 10.5l5.1-1.9L12 3.5Z"/></symbol>
+  <symbol id="i-zoom" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5M8.6 11h4.8M11 8.6v4.8"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="M3.6 7l8.4 6 8.4-6"/></symbol>
+  <symbol id="i-box" viewBox="0 0 24 24"><path d="M12 3.5l8 4.3v8.4l-8 4.3-8-4.3V7.8l8-4.3Z"/><path d="M4 7.8l8 4.3 8-4.3M12 12.1V20"/></symbol>
+  <symbol id="i-tools" viewBox="0 0 24 24"><path d="M14.5 3.6a5 5 0 0 0 5.9 5.9l-9.2 9.2a3 3 0 1 1-4.2-4.2l9.2-9.2a5 5 0 0 1-1.7-1.7Z"/><path d="M5.5 18.5h.01"/></symbol>
+  <symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18c1.7 0 2.5-1.3 2-2.6-.5-1.4.3-2.4 1.8-2.4H18a3 3 0 0 0 3-3c0-5-4-10-9-10Z"/><circle cx="8" cy="9" r="1"/><circle cx="12" cy="7" r="1"/><circle cx="16" cy="9.5" r="1"/></symbol>
+  <symbol id="i-sofa" viewBox="0 0 24 24"><path d="M4.5 12V9.2A2.2 2.2 0 0 1 6.7 7h10.6a2.2 2.2 0 0 1 2.2 2.2V12"/><path d="M2.5 12.5h19V17a2 2 0 0 1-2 2h-15a2 2 0 0 1-2-2v-4.5Z"/><path d="M6 19.5v1.8M18 19.5v1.8"/></symbol>
+  <symbol id="i-table" viewBox="0 0 24 24"><path d="M3 10h18M5.5 10v10M18.5 10v10M8 10V6h8v4"/></symbol>
+  <symbol id="i-bed" viewBox="0 0 24 24"><path d="M3 18.5v-7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v7M3 14.5h18M3 18.5v2M21 18.5v2"/><path d="M6.5 9.5V7.5h4v2"/></symbol>
+  <symbol id="i-cabinet" viewBox="0 0 24 24"><rect x="5" y="3.5" width="14" height="17" rx="1"/><path d="M12 3.5v17M9 9h1M14 9h1"/></symbol>
+  <symbol id="i-desk" viewBox="0 0 24 24"><path d="M3 8.5h18M5.5 8.5V20M18.5 8.5V20M9 12.5h6"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19.5c0-8 5-13.2 14.5-14.2C20.4 14.8 15.4 20 6.5 20H5Z"/><path d="M5 19.5c3-4 6.2-6.4 9.5-7.5"/></symbol>
+  <symbol id="i-kid" viewBox="0 0 24 24"><circle cx="12" cy="7" r="3"/><path d="M6 21c0-4.2 2.8-6.4 6-6.4S18 16.8 18 21"/></symbol>
+  <symbol id="i-building" viewBox="0 0 24 24"><path d="M4 21V6l8-3 8 3v15M9 21v-5h6v5"/><path d="M8 9h1M15 9h1M8 13h1M15 13h1"/></symbol>
+  <symbol id="i-lamp" viewBox="0 0 24 24"><path d="M9 3.5h6l2.8 7H6.2L9 3.5ZM12 10.5V19M9 20.5h6"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M8.5 5.5l10.5 6.5-10.5 6.5v-13Z"/></symbol>
+</svg>
+
+<a class="sr-only" href="#main">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar__inner">
+    <p class="topbar__msg">
+      <span class="pulse-dot" aria-hidden="true"></span>
+      <span>Every furniture variety, built in Kiambu — <strong>free delivery within Kiambu on orders over KSh 50,000</strong></span>
+    </p>
+    <div class="topbar__links">
+      <a href="tel:+254722824703"><svg class="ico" aria-hidden="true"><use href="#i-phone"></use></svg>0722 824 703</a>
+      <span class="topbar__sep" aria-hidden="true"></span>
+      <a href="contact.html">Showroom visits by appointment</a>
     </div>
+  </div>
+</div>
 
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="logo">
-                <i class="fas fa-couch"></i>
-                Premium Furnitures
-            </a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="reviews.html">Reviews</a></li>
-                <li>
-                    <div class="cart-icon" data-cart-toggle>
-                        <i class="fas fa-shopping-cart"></i>
-                        <span class="cart-count" id="cartCount">0</span>
-                    </div>
-                </li>
-            </ul>
-            <div class="mobile-toggle" id="mobileToggle">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section (High-Converting) -->
-    <section class="hero">
-        <div class="hero-content">
-            <div style="display:inline-block; background:#ff4444; color:white; padding:6px 18px; border-radius:30px; font-size:0.85rem; font-weight:bold; margin-bottom:20px; animation: fadeInUp 1s ease both;">
-                ⭐ TRUSTED BY 500+ HAPPY CUSTOMERS
-            </div>
-            <h1>Transform Your Home Into a Masterpiece</h1>
-            <p>Premium Quality Furniture for Every Room — Durable, Elegant & Affordable. <br>Delivery Available Right to Your Doorstep.</p>
-            <div class="hero-buttons">
-                <a href="products.html" class="btn btn-primary">
-                    <i class="fas fa-shopping-bag"></i> Shop Now — Browse
-                </a>
-                <a href="https://wa.me/254718574880" target="_blank" class="btn btn-whatsapp">
-                    <i class="fab fa-whatsapp"></i> Order on WhatsApp
-                </a>
-            </div>
-            <div class="hero-trust">
-                <span><i class="fas fa-check-circle"></i> Quality Assured</span>
-                <span><i class="fas fa-check-circle"></i> Delivery Available</span>
-                <span><i class="fas fa-check-circle"></i> 500+ Happy Customers</span>
-                <span><i class="fas fa-check-circle"></i> Instant WhatsApp Support</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Trust Strip -->
-    <div class="trust-strip">
-        <div class="container">
-            <div class="trust-strip-grid">
-                <div class="trust-item">
-                    <i class="fas fa-truck-fast"></i>
-                    <strong>Delivery Available</strong>
-                    <span>To your doorstep countrywide</span>
-                </div>
-                <div class="trust-item">
-                    <i class="fas fa-shield-halved"></i>
-                    <strong>Quality Guaranteed</strong>
-                    <span>Premium materials & craftsmanship</span>
-                </div>
-                <div class="trust-item">
-                    <i class="fab fa-whatsapp"></i>
-                    <strong>Order via WhatsApp</strong>
-                    <span>Fast & convenient ordering</span>
-                </div>
-                <div class="trust-item">
-                    <i class="fas fa-phone-volume"></i>
-                    <strong>Support: 0718 574 880</strong>
-                    <span>Call us Mon-Sat, 8am-7pm</span>
-                </div>
-                <div class="trust-item">
-                    <i class="fas fa-star"></i>
-                    <strong>4.8 / 5 Rating</strong>
-                    <span>From 50+ verified reviews</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Featured Products + Slideshow Section -->
-    <section class="section" style="background: var(--white);">
-        <div class="container">
-            <div class="section-header">
-                <h2>🔥 Hot Deals & Featured Furniture</h2>
-                <p>Handpicked bestsellers at unbeatable prices — limited stock available!</p>
-            </div>
-
-            <!-- Offer Banner with Countdown -->
-            <div class="offer-banner">
-                <div class="offer-banner-text">
-                    <h3>⚡ Flash Sale Ends Soon!</h3>
-                    <p>Get up to 20% OFF on selected items — order today before stock runs out!</p>
-                </div>
-                <div class="countdown" id="countdown">
-                    <div class="countdown-box">
-                        <span class="countdown-num" id="cdDays">02</span>
-                        <span class="countdown-label">DAYS</span>
-                    </div>
-                    <div class="countdown-box">
-                        <span class="countdown-num" id="cdHours">14</span>
-                        <span class="countdown-label">HRS</span>
-                    </div>
-                    <div class="countdown-box">
-                        <span class="countdown-num" id="cdMins">35</span>
-                        <span class="countdown-label">MIN</span>
-                    </div>
-                    <div class="countdown-box">
-                        <span class="countdown-num" id="cdSecs">22</span>
-                        <span class="countdown-label">SEC</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Products grid with right-side slideshow -->
-            <div class="products-with-slideshow">
-                <!-- Products Left Side -->
-                <div>
-                    <div class="mini-products-grid" id="featuredProducts"></div>
-                    <div style="text-align: center; margin-top: 35px;">
-                        <a href="products.html" class="btn btn-primary" style="font-size:1.05rem; padding:14px 35px;">
-                            <i class="fas fa-th-large"></i> View All Products &rarr;
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Slideshow Right Side -->
-                <aside class="slideshow-panel">
-                    <div class="slideshow-header">
-                        <h3><i class="fas fa-fire"></i> Hot Picks</h3>
-                        <span class="slideshow-badge">LIVE</span>
-                    </div>
-                    <div class="slideshow-progress">
-                        <div class="slideshow-progress-bar" id="slideProgress"></div>
-                    </div>
-                    <div class="slideshow-container" id="slideshowContainer">
-                        <!-- Slides injected by JS -->
-                        <div class="slide-dots" id="slideDots"></div>
-                    </div>
-                    <div class="slideshow-actions" id="slideshowActions"></div>
-                </aside>
-            </div>
-
-            <!-- Urgency Strip -->
-            <div class="urgency-strip">
-                <p><i class="fas fa-exclamation-triangle"></i><strong>Limited Stock Available!</strong> Popular items sell fast. Contact us on WhatsApp now to confirm availability and secure your order.</p>
-                <a href="https://wa.me/254718574880" target="_blank" class="btn btn-whatsapp" style="margin-top:15px;">
-                    <i class="fab fa-whatsapp"></i> Check Availability Now
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Categories Section -->
-    <section class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Shop by Category</h2>
-                <p>Find the perfect furniture for every room in your home or office</p>
-            </div>
-            <div class="categories-grid">
-                <a href="products.html" class="category-card">
-                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600" alt="Living Room">
-                    <div class="category-overlay">
-                        <h3>Living Room</h3>
-                        <p>Sofas, Coffee Tables, TV Stands & More</p>
-                    </div>
-                </a>
-                <a href="products.html" class="category-card">
-                    <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600" alt="Dining Room">
-                    <div class="category-overlay">
-                        <h3>Dining Room</h3>
-                        <p>Dining Tables, Chairs & Bar Stools</p>
-                    </div>
-                </a>
-                <a href="products.html" class="category-card">
-                    <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600" alt="Bedroom">
-                    <div class="category-overlay">
-                        <h3>Bedroom</h3>
-                        <p>Beds, Wardrobes & Bedside Tables</p>
-                    </div>
-                </a>
-                <a href="products.html" class="category-card">
-                    <img src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=600" alt="Office">
-                    <div class="category-overlay">
-                        <h3>Office</h3>
-                        <p>Desks, Chairs & Storage Solutions</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Mini Testimonials -->
-    <section class="section mini-testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2>What Our Customers Say</h2>
-                <p>Real reviews from real customers across Kenya</p>
-            </div>
-            <div class="mini-testis-grid">
-                <div class="mini-testi">
-                    <div class="mini-testi-quote">"</div>
-                    <p>"Absolutely love my new sofa! The quality is outstanding and it was delivered right on time. Highly recommend Premium Furnitures to everyone."</p>
-                    <div class="mini-testi-author">
-                        <div class="mini-testi-avatar">A</div>
-                        <div>
-                            <div class="mini-testi-name">Alice W.</div>
-                            <div class="mini-testi-stars">★★★★★</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mini-testi">
-                    <div class="mini-testi-quote">"</div>
-                    <p>"The dining set is a perfect centerpiece for our home. Sturdy build and elegant design. Worth every shilling. Will definitely buy again!"</p>
-                    <div class="mini-testi-author">
-                        <div class="mini-testi-avatar">B</div>
-                        <div>
-                            <div class="mini-testi-name">Brian K.</div>
-                            <div class="mini-testi-stars">★★★★★</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mini-testi">
-                    <div class="mini-testi-quote">"</div>
-                    <p>"Excellent customer service and the bed frame is exactly what we wanted. Ordering through WhatsApp was so easy and convenient."</p>
-                    <div class="mini-testi-author">
-                        <div class="mini-testi-avatar">C</div>
-                        <div>
-                            <div class="mini-testi-name">Carol M.</div>
-                            <div class="mini-testi-stars">★★★★★</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div style="text-align: center; margin-top: 30px;">
-                <a href="reviews.html" class="btn btn-primary">
-                    <i class="fas fa-comments"></i> Read All 50+ Reviews
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Guarantees -->
-    <section class="section" style="background: var(--light);">
-        <div class="container">
-            <div class="section-header">
-                <h2>Why Shop With Confidence</h2>
-                <p>Your satisfaction is our top priority</p>
-            </div>
-            <div class="guarantees-row">
-                <div class="guarantee-item">
-                    <i class="fas fa-medal"></i>
-                    <div>
-                        <strong>Premium Quality</strong>
-                        <span>Hand-picked durable furniture</span>
-                    </div>
-                </div>
-                <div class="guarantee-item">
-                    <i class="fas fa-truck"></i>
-                    <div>
-                        <strong>Delivery Available</strong>
-                        <span>To your doorstep (fees apply)</span>
-                    </div>
-                </div>
-                <div class="guarantee-item">
-                    <i class="fab fa-whatsapp"></i>
-                    <div>
-                        <strong>Instant Orders</strong>
-                        <span>One-click WhatsApp ordering</span>
-                    </div>
-                </div>
-                <div class="guarantee-item">
-                    <i class="fas fa-headset"></i>
-                    <div>
-                        <strong>24/7 Support</strong>
-                        <span>Call: 0718 574 880</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Final CTA Section -->
-    <section class="section" style="background: linear-gradient(rgba(139,69,19,0.92), rgba(92,46,10,0.92)), url('https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=1600') center/cover; color: white;">
-        <div class="container" style="text-align: center;">
-            <h2 style="font-size: 2.5rem; margin-bottom: 15px;">🛋️ Ready to Upgrade Your Space?</h2>
-            <p style="font-size: 1.2rem; margin-bottom: 10px; max-width: 600px; margin-left: auto; margin-right: auto;">
-                Don't wait — your dream home is just one message away!
-            </p>
-            <p style="font-size: 1.05rem; margin-bottom: 30px; opacity: 0.9;">
-                📞 Call us now at <strong style="font-size:1.3rem;">0718 574 880</strong> or click below to browse our full collection.
-            </p>
-            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-                <a href="products.html" class="btn btn-primary" style="background: var(--white); color: var(--primary); font-size:1.05rem;">
-                    <i class="fas fa-eye"></i> Browse All Products
-                </a>
-                <a href="https://wa.me/254718574880" target="_blank" class="btn btn-whatsapp" style="font-size:1.05rem;">
-                    <i class="fab fa-whatsapp"></i> WhatsApp: 0718 574 880
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h4><i class="fas fa-couch"></i> Premium Furnitures</h4>
-                    <p>Your one-stop shop for quality furniture. We provide elegant and durable furniture pieces for every room in your home or office.</p>
-                    <div class="footer-social">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="https://wa.me/254718574880"><i class="fab fa-whatsapp"></i></a>
-                        <a href="#"><i class="fab fa-tiktok"></i></a>
-                    </div>
-                </div>
-                <div class="footer-col">
-                    <h4>Quick Links</h4>
-                    <ul class="footer-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="reviews.html">Reviews</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Categories</h4>
-                    <ul class="footer-links">
-                        <li><a href="products.html">Living Room</a></li>
-                        <li><a href="products.html">Dining Room</a></li>
-                        <li><a href="products.html">Bedroom</a></li>
-                        <li><a href="products.html">Office Furniture</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Contact Info</h4>
-                    <p><i class="fas fa-phone"></i> 0718 574 880</p>
-                    <p><i class="fab fa-whatsapp"></i> WhatsApp: 0718574880</p>
-                    <p><i class="fas fa-truck"></i> Delivery Available</p>
-                    <p><i class="fas fa-clock"></i> Mon-Sat: 8am - 7pm</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Premium Furnitures. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Cart Sidebar -->
-    <div class="cart-overlay" id="cartOverlay"></div>
-    <div class="cart-sidebar" id="cartSidebar">
-        <div class="cart-header">
-            <h3><i class="fas fa-shopping-cart"></i> Your Cart</h3>
-            <button class="cart-close"><i class="fas fa-times"></i></button>
-        </div>
-        <div class="cart-items" id="cartItems"></div>
-        <div class="cart-footer">
-            <div class="cart-total">
-                <span>Total:</span>
-                <span id="cartTotal">KSh 0</span>
-            </div>
-            <button class="btn btn-whatsapp" style="width: 100%; justify-content: center;" onclick="checkoutWhatsApp()">
-                <i class="fab fa-whatsapp"></i> Order via WhatsApp
-            </button>
-        </div>
-    </div>
-
-    <!-- WhatsApp Float -->
-    <a href="https://wa.me/254718574880" target="_blank" class="whatsapp-float">
-        <i class="fab fa-whatsapp"></i>
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html" aria-label="Smart Art Furniture &amp; Designs — home">
+      <span class="brand__mark" aria-hidden="true">SA</span>
+      <span class="brand__text">
+        <strong>Smart Art</strong>
+        <small>Furniture &amp; Designs</small>
+      </span>
     </a>
 
-    <script src="script.js"></script>
+    <nav class="nav" aria-label="Main">
+      <ul class="nav__list">
+        <li><a class="nav__link is-active" href="index.html">Home</a></li>
+        <li class="has-mega">
+          <button class="nav__link nav__link--btn " type="button" aria-expanded="false">
+            Collection <svg class="ico" aria-hidden="true"><use href="#i-chevron"></use></svg>
+          </button>
+          <div class="mega" role="menu">
+            <div class="mega__col">
+              <span class="mega__title">Living &amp; sleeping</span>
+                              <a class="mega__link" href="products.html?cat=living">Living Room<span>8</span></a>
+                <a class="mega__link" href="products.html?cat=dining">Dining & Kitchen<span>7</span></a>
+                <a class="mega__link" href="products.html?cat=bedroom">Bedroom<span>6</span></a>
+                <a class="mega__link" href="products.html?cat=mattress">Beds & Mattresses<span>4</span></a>
+                <a class="mega__link" href="products.html?cat=storage">Wardrobes & Storage<span>5</span></a>
+            </div>
+            <div class="mega__col">
+              <span class="mega__title">Work, play &amp; outdoors</span>
+                              <a class="mega__link" href="products.html?cat=office">Office & Study<span>6</span></a>
+                <a class="mega__link" href="products.html?cat=outdoor">Outdoor & Garden<span>4</span></a>
+                <a class="mega__link" href="products.html?cat=kids">Kids & Baby<span>4</span></a>
+                <a class="mega__link" href="products.html?cat=commercial">Hotel & Commercial<span>4</span></a>
+                <a class="mega__link" href="products.html?cat=decor">Décor & Accents<span>4</span></a>
+            </div>
+            <a class="mega__promo" href="products.html">
+              <img src="assets/img/showroom.jpg" alt="" loading="lazy">
+              <div>
+                <strong>The full collection</strong>
+                <span>52 pieces across 10 furniture varieties →</span>
+              </div>
+            </a>
+          </div>
+        </li>
+        <li><a class="nav__link " href="gallery.html">Gallery</a></li>
+        <li><a class="nav__link " href="about.html">About</a></li>
+        <li><a class="nav__link " href="reviews.html">Reviews</a></li>
+        <li><a class="nav__link " href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__actions">
+      <button class="icon-btn" type="button" data-open-search aria-label="Search the collection">
+        <svg class="ico" aria-hidden="true"><use href="#i-search"></use></svg>
+      </button>
+      <button class="icon-btn theme-toggle" type="button" id="themeToggle" aria-label="Switch to dark mode">
+        <svg class="ico icon-sun" aria-hidden="true"><use href="#i-sun"></use></svg>
+        <svg class="ico icon-moon" aria-hidden="true"><use href="#i-moon"></use></svg>
+      </button>
+      <a class="icon-btn" href="products.html?view=wishlist" aria-label="Saved items">
+        <svg class="ico" aria-hidden="true"><use href="#i-heart"></use></svg>
+        <span class="icon-btn__count" data-wish-count hidden>0</span>
+      </a>
+      <button class="icon-btn" type="button" data-open-cart aria-label="Open cart">
+        <svg class="ico" aria-hidden="true"><use href="#i-cart"></use></svg>
+        <span class="icon-btn__count" id="cartCount" data-cart-count hidden>0</span>
+      </button>
+      <a class="btn btn--wa btn--sm header__cta" href="https://wa.me/254722824703?text=Hello%20Smart%20Art%20Furniture%20and%20Designs!%20I%20would%20like%20to%20know%20more%20about%20your%20furniture." target="_blank" rel="noopener">
+        <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"></use></svg> WhatsApp
+      </a>
+      <button class="menu-toggle" type="button" data-open-menu aria-label="Open menu">
+        <svg class="ico" aria-hidden="true"><use href="#i-menu"></use></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+        <div class="hero__bg" aria-hidden="true">
+            <img src="assets/img/hero-living.jpg" alt="" class="is-active" data-hero fetchpriority="high">
+            <img src="assets/img/hero-dining.jpg" alt="" data-hero loading="lazy">
+            <img src="assets/img/hero-bedroom.jpg" alt="" data-hero loading="lazy">
+            <span class="hero__scrim"></span>
+        </div>
+
+        <div class="container hero__inner">
+            <div class="hero__copy">
+                <p class="eyebrow"><span class="eyebrow__line"></span> Kiambu · Nairobi · Delivered countrywide</p>
+                <h1 class="hero__title">Every room.<br>Every style.<br><em>One workshop.</em></h1>
+                <p class="hero__lede">Smart Art Furniture and Designs makes, sources and delivers the full range — sofas to hotel suites, mattresses to reception desks — with honest prices and finishes you can feel.</p>
+
+                <div class="hero__cta">
+                    <a class="btn btn--primary btn--lg" href="products.html">
+                        Explore the collection
+                        <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg>
+                    </a>
+                    <a class="btn btn--ghost btn--lg" href="https://wa.me/254722824703?text=Hello%20Smart%20Art!%20I%20would%20like%20help%20choosing%20furniture." target="_blank" rel="noopener">
+                        <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"></use></svg>
+                        Chat with a designer
+                    </a>
+                </div>
+
+                <ul class="hero__chips">
+                    <li><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg> 10 furniture varieties</li>
+                    <li><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg> Custom sizes &amp; finishes</li>
+                    <li><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg> Delivery countrywide</li>
+                    <li><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg> 12-month workmanship warranty</li>
+                </ul>
+            </div>
+
+            <aside class="hero__aside">
+                <figure class="hero__card">
+                    <img src="assets/img/armchair-leather.jpg" alt="Tana leather lounge chair in tan leather" loading="lazy">
+                    <figcaption>
+                        <strong>Tana leather lounge chair</strong>
+                        <span>From KSh 46,500 · hand-finished in Kiambu</span>
+                    </figcaption>
+                </figure>
+                <div class="hero__meta"><span class="stars">★★★★★</span> 4.9 · 120+ verified reviews</div>
+            </aside>
+        </div>
+
+        <div class="hero__dots" aria-hidden="true">
+            <span class="hero__dot is-active" data-hero-dot></span>
+            <span class="hero__dot" data-hero-dot></span>
+            <span class="hero__dot" data-hero-dot></span>
+        </div>
+
+        <div class="hero__strip">
+            <div class="container hero__strip-inner">
+                <div class="hero__strip-item">
+                    <svg class="ico" aria-hidden="true"><use href="#i-box"></use></svg>
+                    <div><strong>All furniture varieties</strong><span>Living to hospitality, one supplier</span></div>
+                </div>
+                <div class="hero__strip-item">
+                    <svg class="ico" aria-hidden="true"><use href="#i-truck"></use></svg>
+                    <div><strong>Delivery countrywide</strong><span>1–3 days in Kiambu &amp; Nairobi</span></div>
+                </div>
+                <div class="hero__strip-item">
+                    <svg class="ico" aria-hidden="true"><use href="#i-tools"></use></svg>
+                    <div><strong>Built to your space</strong><span>Custom sizes, fabrics &amp; finishes</span></div>
+                </div>
+                <div class="hero__strip-item">
+                    <svg class="ico" aria-hidden="true"><use href="#i-shield"></use></svg>
+                    <div><strong>Quality guaranteed</strong><span>Solid timber &amp; real warranties</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= VARIETY MARQUEE ================= -->
+    <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+            <span class="marquee__item">Living room</span>
+            <span class="marquee__item">Dining &amp; kitchen</span>
+            <span class="marquee__item">Bedroom</span>
+            <span class="marquee__item">Beds &amp; mattresses</span>
+            <span class="marquee__item">Wardrobes &amp; storage</span>
+            <span class="marquee__item">Office &amp; study</span>
+            <span class="marquee__item">Outdoor &amp; garden</span>
+            <span class="marquee__item">Kids &amp; baby</span>
+            <span class="marquee__item">Hotel &amp; commercial</span>
+            <span class="marquee__item">Décor &amp; accents</span>
+            <span class="marquee__item">Living room</span>
+            <span class="marquee__item">Dining &amp; kitchen</span>
+            <span class="marquee__item">Bedroom</span>
+            <span class="marquee__item">Beds &amp; mattresses</span>
+            <span class="marquee__item">Wardrobes &amp; storage</span>
+            <span class="marquee__item">Office &amp; study</span>
+            <span class="marquee__item">Outdoor &amp; garden</span>
+            <span class="marquee__item">Kids &amp; baby</span>
+            <span class="marquee__item">Hotel &amp; commercial</span>
+            <span class="marquee__item">Décor &amp; accents</span>
+        </div>
+    </div>
+
+    <!-- ================= CATEGORIES ================= -->
+    <section class="section" id="varieties">
+        <div class="container">
+            <div class="section-head" data-reveal>
+                <div>
+                    <p class="eyebrow"><span class="eyebrow__line"></span> Shop by room</p>
+                    <h2>Every variety of furniture,<br><em>under one roof</em></h2>
+                    <p>From the sofa that anchors your sitting room to the pews in your chapel — if it furnishes a space, we make it, source it or fit it.</p>
+                </div>
+                <a class="section-head__link" href="products.html">
+                    All 52 pieces <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg>
+                </a>
+            </div>
+
+            <div class="cat-grid">
+                <a class="cat-card cat-card--wide" href="products.html?cat=living" data-reveal>
+                    <img src="assets/img/hero-living.jpg" alt="Living room with a full-grain leather sofa" loading="lazy">
+                    <div class="cat-card__body">
+                        <div>
+                            <h3>Living room</h3>
+                            <p>Sofas · sectionals · coffee tables · media units</p>
+                        </div>
+                        <span class="cat-card__arrow"><svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+                    </div>
+                </a>
+
+                <a class="cat-card" href="products.html?cat=bedroom" data-reveal>
+                    <img src="assets/img/hero-bedroom.jpg" alt="Bedroom with an upholstered bed" loading="lazy">
+                    <div class="cat-card__body">
+                        <div><h3>Bedroom</h3><p>Beds · bedside · vanities</p></div>
+                        <span class="cat-card__arrow"><svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+                    </div>
+                </a>
+
+                <a class="cat-card" href="products.html?cat=dining" data-reveal>
+                    <img src="assets/img/dining-set.jpg" alt="Dining room with a solid wood dining set" loading="lazy">
+                    <div class="cat-card__body">
+                        <div><h3>Dining</h3><p>Tables · chairs · islands</p></div>
+                        <span class="cat-card__arrow"><svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+                    </div>
+                </a>
+
+                <a class="cat-card cat-card--tall" href="products.html?cat=office" data-reveal>
+                    <img src="assets/img/office-desk.jpg" alt="Home office with an executive desk" loading="lazy">
+                    <div class="cat-card__body">
+                        <div><h3>Office &amp; study</h3><p>Desks · task chairs · boardroom</p></div>
+                        <span class="cat-card__arrow"><svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+                    </div>
+                </a>
+
+                <a class="cat-card cat-card--wide" href="products.html?cat=outdoor" data-reveal>
+                    <img src="assets/img/outdoor-patio.jpg" alt="Outdoor patio with rattan lounge furniture" loading="lazy">
+                    <div class="cat-card__body">
+                        <div><h3>Outdoor &amp; garden</h3><p>Patio sets · loungers · parasols</p></div>
+                        <span class="cat-card__arrow"><svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+                    </div>
+                </a>
+
+                <a class="cat-card" href="products.html?cat=kids" data-reveal>
+                    <img src="assets/img/kids-room.jpg" alt="Kids bedroom with a bunk bed" loading="lazy">
+                    <div class="cat-card__body">
+                        <div><h3>Kids &amp; baby</h3><p>Bunks · cots · desks</p></div>
+                        <span class="cat-card__arrow"><svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+                    </div>
+                </a>
+
+                <a class="cat-card" href="products.html?cat=storage" data-reveal>
+                    <img src="assets/img/wardrobe-oak.jpg" alt="Fitted oak wardrobe" loading="lazy">
+                    <div class="cat-card__body">
+                        <div><h3>Storage</h3><p>Wardrobes · shelving</p></div>
+                        <span class="cat-card__arrow"><svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+                    </div>
+                </a>
+
+                <a class="cat-card cat-card--wide" href="products.html?cat=commercial" data-reveal>
+                    <img src="assets/img/showroom.jpg" alt="Hotel and commercial furniture" loading="lazy">
+                    <div class="cat-card__body">
+                        <div><h3>Hotel &amp; commercial</h3><p>Suites · reception · pews</p></div>
+                        <span class="cat-card__arrow"><svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FEATURED PRODUCTS ================= -->
+    <section class="section section--surface" id="featured">
+        <div class="container">
+            <div class="section-head" data-reveal>
+                <div>
+                    <p class="eyebrow"><span class="eyebrow__line"></span> The collection</p>
+                    <h2>Pieces people <em>keep</em></h2>
+                    <p>Bestsellers from the workshop — each one photographed in a real room, priced honestly, and available in your choice of finish.</p>
+                </div>
+                <a class="section-head__link" href="products.html">
+                    Browse everything <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg>
+                </a>
+            </div>
+
+            <div class="chips-scroll" style="margin-bottom:28px">
+                <button class="filter-chip is-active" type="button" data-home-tab="all">All furniture</button>
+                <button class="filter-chip" type="button" data-home-tab="living">Living room</button>
+                <button class="filter-chip" type="button" data-home-tab="dining">Dining &amp; kitchen</button>
+                <button class="filter-chip" type="button" data-home-tab="bedroom">Bedroom</button>
+                <button class="filter-chip" type="button" data-home-tab="office">Office</button>
+                <button class="filter-chip" type="button" data-home-tab="storage">Storage</button>
+            </div>
+
+            <div class="product-grid" id="featuredGrid"></div>
+
+            <div style="text-align:center; margin-top:42px" data-reveal>
+                <a class="btn btn--ghost btn--lg" href="products.html">
+                    View all 52 pieces
+                    <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= BESPOKE ================= -->
+    <section class="section">
+        <div class="container split">
+            <div class="split__media" data-reveal="left">
+                <img src="assets/img/craftsman.jpg" alt="Craftsman hand-finishing a timber frame in the Smart Art workshop" loading="lazy">
+                <div class="split__badge">
+                    <strong>24h</strong>
+                    <span>Quote turnaround</span>
+                </div>
+            </div>
+            <div class="split__copy" data-reveal="right">
+                <p class="eyebrow"><span class="eyebrow__line"></span> Bespoke &amp; made to measure</p>
+                <h2>Not on the shelf? <em>We will build it.</em></h2>
+                <p>Most of what leaves our workshop is made for one specific room. Send a photo, a sketch or a measurement — we handle the design, the timber, the fabric and the install.</p>
+                <ul class="check-list">
+                    <li><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg> <span>Custom dimensions — odd alcoves, low windows, tight stairwells</span></li>
+                    <li><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg> <span>Fabric and finish library with samples sent to your door</span></li>
+                    <li><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg> <span>Fixed written quote and production date before you pay</span></li>
+                    <li><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg> <span>Fitted wardrobes, reception desks, full room and hotel packages</span></li>
+                </ul>
+                <div class="hero__cta" style="margin-top:0">
+                    <a class="btn btn--primary" href="https://wa.me/254722824703?text=Hello%20Smart%20Art!%20I%20would%20like%20a%20custom%20piece%20made.%20Here%20are%20my%20measurements%3A" target="_blank" rel="noopener">
+                        <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"></use></svg> Start a custom piece
+                    </a>
+                    <a class="btn btn--ghost" href="contact.html">
+                        Request a quote
+                        <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= ALL VARIETIES ================= -->
+    <section class="section section--soft">
+        <div class="container">
+            <div class="section-head" data-reveal>
+                <div>
+                    <p class="eyebrow"><span class="eyebrow__line"></span> Complete coverage</p>
+                    <h2>Ten varieties. <em>Zero gaps.</em></h2>
+                    <p>One supplier for the whole house, the whole office, or the whole property — so finishes match and delivery arrives together.</p>
+                </div>
+            </div>
+
+            <div class="variety-grid">
+                <a class="variety" href="products.html?cat=living" data-reveal>
+                    <span class="variety__icon"><svg class="ico" aria-hidden="true"><use href="#i-sofa"></use></svg></span>
+                    <div><strong>Living room</strong><span>8 pieces</span></div>
+                </a>
+                <a class="variety" href="products.html?cat=dining" data-reveal>
+                    <span class="variety__icon"><svg class="ico" aria-hidden="true"><use href="#i-table"></use></svg></span>
+                    <div><strong>Dining &amp; kitchen</strong><span>7 pieces</span></div>
+                </a>
+                <a class="variety" href="products.html?cat=bedroom" data-reveal>
+                    <span class="variety__icon"><svg class="ico" aria-hidden="true"><use href="#i-bed"></use></svg></span>
+                    <div><strong>Bedroom</strong><span>6 pieces</span></div>
+                </a>
+                <a class="variety" href="products.html?cat=mattress" data-reveal>
+                    <span class="variety__icon"><svg class="ico" aria-hidden="true"><use href="#i-box"></use></svg></span>
+                    <div><strong>Beds &amp; mattresses</strong><span>4 pieces</span></div>
+                </a>
+                <a class="variety" href="products.html?cat=storage" data-reveal>
+                    <span class="variety__icon"><svg class="ico" aria-hidden="true"><use href="#i-cabinet"></use></svg></span>
+                    <div><strong>Storage</strong><span>5 pieces</span></div>
+                </a>
+                <a class="variety" href="products.html?cat=office" data-reveal>
+                    <span class="variety__icon"><svg class="ico" aria-hidden="true"><use href="#i-desk"></use></svg></span>
+                    <div><strong>Office &amp; study</strong><span>6 pieces</span></div>
+                </a>
+                <a class="variety" href="products.html?cat=outdoor" data-reveal>
+                    <span class="variety__icon"><svg class="ico" aria-hidden="true"><use href="#i-leaf"></use></svg></span>
+                    <div><strong>Outdoor &amp; garden</strong><span>4 pieces</span></div>
+                </a>
+                <a class="variety" href="products.html?cat=kids" data-reveal>
+                    <span class="variety__icon"><svg class="ico" aria-hidden="true"><use href="#i-kid"></use></svg></span>
+                    <div><strong>Kids &amp; baby</strong><span>4 pieces</span></div>
+                </a>
+                <a class="variety" href="products.html?cat=commercial" data-reveal>
+                    <span class="variety__icon"><svg class="ico" aria-hidden="true"><use href="#i-building"></use></svg></span>
+                    <div><strong>Hotel &amp; commercial</strong><span>4 pieces</span></div>
+                </a>
+                <a class="variety" href="products.html?cat=decor" data-reveal>
+                    <span class="variety__icon"><svg class="ico" aria-hidden="true"><use href="#i-lamp"></use></svg></span>
+                    <div><strong>Décor &amp; accents</strong><span>4 pieces</span></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PROCESS ================= -->
+    <section class="section">
+        <div class="container">
+            <div class="section-head" data-reveal>
+                <div>
+                    <p class="eyebrow"><span class="eyebrow__line"></span> How it works</p>
+                    <h2>From your room to <em>your room</em></h2>
+                    <p>Four steps, no surprises. You always know the price, the finish and the delivery date before production starts.</p>
+                </div>
+            </div>
+
+            <div class="process">
+                <div class="process__item" data-reveal>
+                    <h3>Tell us the space</h3>
+                    <p>Send photos, rough measurements or a link to the look you want. We ask the questions most shops forget.</p>
+                </div>
+                <div class="process__item" data-reveal>
+                    <h3>Design &amp; quote</h3>
+                    <p>A fixed written quote within 24 hours, with fabric swatches and a simple sketch or 3D layout where it helps.</p>
+                </div>
+                <div class="process__item" data-reveal>
+                    <h3>Build &amp; finish</h3>
+                    <p>Cut, joined and finished in our Kiambu workshop. You get photo updates and a quality check before we load.</p>
+                </div>
+                <div class="process__item" data-reveal>
+                    <h3>Deliver &amp; install</h3>
+                    <p>Countrywide delivery, placement in the right room, and assembly where it is needed. We take the packaging away.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= STATS ================= -->
+    <section class="section section--ink section--tight">
+        <div class="container">
+            <div class="stats">
+                <div class="stat" data-reveal="fade">
+                    <div class="stat__num" data-count="1200" data-suffix="+">1,200+</div>
+                    <div class="stat__label">Pieces delivered</div>
+                </div>
+                <div class="stat" data-reveal="fade">
+                    <div class="stat__num" data-count="120" data-suffix="+">120+</div>
+                    <div class="stat__label">Five-star reviews</div>
+                </div>
+                <div class="stat" data-reveal="fade">
+                    <div class="stat__num" data-count="10">10</div>
+                    <div class="stat__label">Furniture varieties</div>
+                </div>
+                <div class="stat" data-reveal="fade">
+                    <div class="stat__num" data-count="47">47</div>
+                    <div class="stat__label">Counties delivered</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= GALLERY PREVIEW ================= -->
+    <section class="section">
+        <div class="container">
+            <div class="section-head" data-reveal>
+                <div>
+                    <p class="eyebrow"><span class="eyebrow__line"></span> Recent work</p>
+                    <h2>Rooms we have <em>finished</em></h2>
+                    <p>A few of the homes, hotels and offices we have furnished this year. Tap any image to see it full size.</p>
+                </div>
+                <a class="section-head__link" href="gallery.html">
+                    Full gallery <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg>
+                </a>
+            </div>
+            <div class="gallery-grid" id="homeGallery"></div>
+        </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section class="section section--surface">
+        <div class="container">
+            <div class="section-head" data-reveal>
+                <div>
+                    <p class="eyebrow"><span class="eyebrow__line"></span> Customer stories</p>
+                    <h2>Trusted in <em>real homes</em></h2>
+                    <p>4.9 out of 5 across 120+ verified reviews from Kiambu to Mombasa.</p>
+                </div>
+                <div class="testi-nav">
+                    <button type="button" data-testi="prev" aria-label="Previous reviews">
+                        <svg class="ico" aria-hidden="true"><use href="#i-chevron-left"></use></svg>
+                    </button>
+                    <button type="button" data-testi="next" aria-label="Next reviews">
+                        <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="testi-wrap">
+                <div class="testi-track" id="testiTrack">
+                    <article class="testi-card">
+                        <div class="testi-card__stars">★★★★★</div>
+                        <p class="testi-card__text">“They measured my room, sent fabric samples on WhatsApp and delivered in twelve days. The bed is genuinely better made than what I saw in the city showrooms at twice the price.”</p>
+                        <div class="testi-card__author">
+                            <span class="testi-card__avatar">W</span>
+                            <div><strong>Wanjiku M.</strong><span>Kiambu · Serene upholstered bed</span></div>
+                        </div>
+                    </article>
+                    <article class="testi-card">
+                        <div class="testi-card__stars">★★★★★</div>
+                        <p class="testi-card__text">“The leather smells like a proper leather chair should. Two months in and it is already softening beautifully. Delivery team carried it up four floors without a scratch.”</p>
+                        <div class="testi-card__author">
+                            <span class="testi-card__avatar">B</span>
+                            <div><strong>Brian K.</strong><span>Nairobi · Kigali leather sofa</span></div>
+                        </div>
+                    </article>
+                    <article class="testi-card">
+                        <div class="testi-card__stars">★★★★★</div>
+                        <p class="testi-card__text">“We host family every Sunday and this table has become the centre of the house. The woven chairs are surprisingly comfortable for long meals.”</p>
+                        <div class="testi-card__author">
+                            <span class="testi-card__avatar">A</span>
+                            <div><strong>Amina H.</strong><span>Ruiru · Kaya 8-seater dining set</span></div>
+                        </div>
+                    </article>
+                    <article class="testi-card">
+                        <div class="testi-card__stars">★★★★★</div>
+                        <p class="testi-card__text">“Smart Art furnished all eight rooms of our guesthouse. One point of contact, one invoice, done in five weeks. Guests keep commenting on the furniture.”</p>
+                        <div class="testi-card__author">
+                            <span class="testi-card__avatar">G</span>
+                            <div><strong>Grace &amp; Tom</strong><span>Kikuyu · Hotel suite package</span></div>
+                        </div>
+                    </article>
+                    <article class="testi-card">
+                        <div class="testi-card__stars">★★★★★</div>
+                        <p class="testi-card__text">“The fitted wardrobe transformed my bedroom. They came for a site visit, built it in a week and cleaned up afterwards.”</p>
+                        <div class="testi-card__author">
+                            <span class="testi-card__avatar">S</span>
+                            <div><strong>Sarah A.</strong><span>Kiambu · Slat-front oak wardrobe</span></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div style="text-align:center; margin-top:34px">
+                <a class="btn btn--ghost" href="reviews.html">
+                    Read all reviews <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section">
+        <div class="container">
+            <div class="section-head" data-reveal>
+                <div>
+                    <p class="eyebrow"><span class="eyebrow__line"></span> Good to know</p>
+                    <h2>Questions, <em>answered</em></h2>
+                    <p>Delivery, payment, custom orders and warranty — the things people ask us most.</p>
+                </div>
+                <a class="section-head__link" href="contact.html">
+                    Ask something else <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg>
+                </a>
+            </div>
+
+            <div class="faq">
+                <div class="faq__item">
+                    <button class="faq__q" type="button">Do you really make every kind of furniture?
+                        <svg class="ico" aria-hidden="true"><use href="#i-plus"></use></svg>
+                    </button>
+                    <div class="faq__a"><p>Yes — living room, dining and kitchen, bedroom and mattresses, wardrobes and storage, office and study, outdoor and garden, kids and baby, décor, plus hotel, restaurant, church and institutional pieces. If it is furniture, we either build it in our Kiambu workshop or source it and finish it to the same standard.</p></div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__q" type="button">How does delivery work and how much does it cost?
+                        <svg class="ico" aria-hidden="true"><use href="#i-plus"></use></svg>
+                    </button>
+                    <div class="faq__a"><p>Delivery is countrywide. Within Kiambu and Nairobi we deliver in 1–3 days; upcountry takes 2–5 days by courier or bus parcel. Fees depend on distance and size — small items are usually KSh 500–1,500, and large sets are quoted per trip. The exact cost is confirmed on WhatsApp before you pay anything.</p></div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__q" type="button">Can I order a custom size, fabric or finish?
+                        <svg class="ico" aria-hidden="true"><use href="#i-plus"></use></svg>
+                    </button>
+                    <div class="faq__a"><p>That is most of what we do. Send us a photo, a Pinterest link or a rough sketch with your measurements. We will send fabric swatches, a fixed quote and a production timeline, usually within 24 hours.</p></div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__q" type="button">What is the payment arrangement?
+                        <svg class="ico" aria-hidden="true"><use href="#i-plus"></use></svg>
+                    </button>
+                    <div class="faq__a"><p>For in-stock items, payment is on delivery or on confirmation. For made-to-order pieces we take 50% to start production and the balance on delivery. M-Pesa, bank transfer and cash are all accepted, and every order gets a written receipt.</p></div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__q" type="button">Is there a warranty?
+                        <svg class="ico" aria-hidden="true"><use href="#i-plus"></use></svg>
+                    </button>
+                    <div class="faq__a"><p>Every piece carries a 1-year workmanship warranty; mattresses run 3–10 years depending on the model, and frames are built for a decade of daily use. If something fails because of how we built it, we repair or replace it.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CTA ================= -->
+    <section class="cta-band">
+        <img class="cta-band__bg" src="assets/img/hero-dining.jpg" alt="" loading="lazy" aria-hidden="true">
+        <div class="container">
+            <p class="eyebrow" style="justify-content:center;color:rgba(255,255,255,.6)"><span class="eyebrow__line"></span> Let's furnish it properly</p>
+            <h2>Ready when you are. <em>Talk to us today.</em></h2>
+            <p>Send a photo of your space on WhatsApp and we will come back with ideas, finishes and a fixed price — usually the same day.</p>
+            <div class="cta-band__btns">
+                <a class="btn btn--wa btn--lg" href="https://wa.me/254722824703?text=Hello%20Smart%20Art!%20Here%20is%20a%20photo%20of%20my%20space%20—%20I%20would%20like%20some%20ideas%20and%20a%20quote." target="_blank" rel="noopener">
+                    <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"></use></svg> WhatsApp 0722 824 703
+                </a>
+                <a class="btn btn--light btn--lg" href="tel:+254722824703">
+                    <svg class="ico" aria-hidden="true"><use href="#i-phone"></use></svg> Call us now
+                </a>
+            </div>
+            <p class="cta-band__note">Mon – Sat · 8:00am – 7:00pm · Kiambu Town showroom by appointment</p>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <a class="brand" href="index.html">
+          <span class="brand__mark" aria-hidden="true">SA</span>
+          <span class="brand__text">
+            <strong>Smart Art</strong>
+            <small>Furniture &amp; Designs</small>
+          </span>
+        </a>
+        <p class="footer__blurb">Furniture designed and built in Kiambu, delivered across Kenya. Ten furniture varieties, one workshop, and a finish you can feel.</p>
+        <a class="btn btn--wa btn--sm" href="https://wa.me/254722824703?text=Hello%20Smart%20Art%20Furniture%20and%20Designs!%20I%20would%20like%20to%20know%20more%20about%20your%20furniture." target="_blank" rel="noopener">
+          <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"></use></svg> Chat on WhatsApp
+        </a>
+      </div>
+
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="products.html">The collection</a></li>
+          <li><a href="gallery.html">Projects gallery</a></li>
+          <li><a href="about.html">Our workshop</a></li>
+          <li><a href="reviews.html">Customer reviews</a></li>
+          <li><a href="contact.html">Contact &amp; delivery</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Varieties</h4>
+        <ul>
+          <li><a href="products.html?cat=living">Living room</a></li>
+          <li><a href="products.html?cat=dining">Dining &amp; kitchen</a></li>
+          <li><a href="products.html?cat=bedroom">Bedroom &amp; mattresses</a></li>
+          <li><a href="products.html?cat=office">Office &amp; study</a></li>
+          <li><a href="products.html?cat=commercial">Hotel &amp; commercial</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Visit &amp; contact</h4>
+        <div class="footer__contact">
+          <a href="tel:+254722824703"><svg class="ico" aria-hidden="true"><use href="#i-phone"></use></svg>0722 824 703</a>
+          <a href="https://wa.me/254722824703?text=Hello%20Smart%20Art%20Furniture%20and%20Designs!%20I%20would%20like%20to%20know%20more%20about%20your%20furniture." target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp"></use></svg>WhatsApp 0722 824 703</a>
+          <span><svg class="ico" aria-hidden="true"><use href="#i-pin"></use></svg>Kiambu Town, Kiambu County, Kenya<br>Showroom visits by appointment</span>
+          <span><svg class="ico" aria-hidden="true"><use href="#i-clock"></use></svg>Mon – Sat · 8:00am – 7:00pm</span>
+        </div>
+        <form class="newsletter" data-newsletter>
+          <div class="newsletter__form">
+            <input type="email" name="email" placeholder="Email for new arrivals" aria-label="Email address" required>
+            <button type="submit" aria-label="Subscribe">
+              <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg>
+            </button>
+          </div>
+          <small>New collections and workshop offers. No spam.</small>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© <span data-year>2026</span> Smart Art Furniture and Designs. All rights reserved.</p>
+      <div class="footer__bottom-links">
+        <a href="about.html#delivery">Delivery &amp; warranty</a>
+        <a href="contact.html#faq">FAQs</a>
+        <a href="contact.html">Get a quote</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Cart drawer -->
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="cartDrawer" aria-hidden="true" aria-label="Shopping cart">
+  <div class="drawer__head">
+    <h3><svg class="ico" aria-hidden="true"><use href="#i-cart"></use></svg> Your cart <small id="cartDrawerCount"></small></h3>
+    <button class="icon-x" type="button" data-close-cart aria-label="Close cart">
+      <svg class="ico" aria-hidden="true"><use href="#i-close"></use></svg>
+    </button>
+  </div>
+  <div class="drawer__body" id="cartBody"></div>
+  <div class="drawer__foot">
+    <div class="cart-total-row"><span>Subtotal</span><span id="cartSubtotal">KSh 0</span></div>
+    <div class="cart-total-row"><span>Delivery</span><span>Quoted on WhatsApp</span></div>
+    <div class="cart-total-row cart-total-row--grand"><span>Total</span><span id="cartTotal">KSh 0</span></div>
+    <button class="btn btn--wa btn--block" type="button" id="checkoutBtn">
+      <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"></use></svg> Checkout on WhatsApp
+    </button>
+    <p class="cart-note">No card details needed. We confirm stock, delivery and payment with you directly on WhatsApp.</p>
+  </div>
+</aside>
+
+<!-- Quick view -->
+<div class="modal" id="quickView" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Product details">
+  <div class="modal__panel" id="quickViewPanel"></div>
+</div>
+
+<!-- Search -->
+<div class="search-modal" id="searchModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Search">
+  <div class="search-modal__panel">
+    <div class="search-modal__field">
+      <svg class="ico" aria-hidden="true"><use href="#i-search"></use></svg>
+      <input type="search" id="searchInput" placeholder="Search sofas, beds, desks, mattresses…" autocomplete="off">
+      <kbd>Esc</kbd>
+      <button class="icon-x" type="button" data-close-search aria-label="Close search">
+        <svg class="ico" aria-hidden="true"><use href="#i-close"></use></svg>
+      </button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Gallery image">
+  <img class="lightbox__img" id="lightboxImg" src="" alt="">
+  <p class="lightbox__cap" id="lightboxCap"></p>
+  <button class="lightbox__close" type="button" aria-label="Close">
+    <svg class="ico" aria-hidden="true"><use href="#i-close"></use></svg>
+  </button>
+  <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Previous image">
+    <svg class="ico" aria-hidden="true"><use href="#i-chevron-left"></use></svg>
+  </button>
+  <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Next image">
+    <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg>
+  </button>
+</div>
+
+<!-- Mobile navigation -->
+<div class="mnav" id="mobileNav">
+  <div class="mnav__scrim" data-close-menu></div>
+  <div class="mnav__panel">
+    <div class="mnav__head">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" aria-hidden="true">SA</span>
+        <span class="brand__text"><strong>Smart Art</strong><small>Furniture &amp; Designs</small></span>
+      </a>
+      <button class="icon-x" type="button" data-close-menu aria-label="Close menu">
+        <svg class="ico" aria-hidden="true"><use href="#i-close"></use></svg>
+      </button>
+    </div>
+    <nav class="mnav__links" aria-label="Mobile">
+      <a href="index.html">Home <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+      <a href="products.html">Collection <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+      <a href="gallery.html">Gallery <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+      <a href="about.html">About <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+      <a href="reviews.html">Reviews <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+      <a href="contact.html">Contact <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+    </nav>
+    <div class="mnav__cats">
+                  <a href="products.html?cat=living">Living Room</a>
+            <a href="products.html?cat=dining">Dining & Kitchen</a>
+            <a href="products.html?cat=bedroom">Bedroom</a>
+            <a href="products.html?cat=mattress">Beds & Mattresses</a>
+            <a href="products.html?cat=storage">Wardrobes & Storage</a>
+            <a href="products.html?cat=office">Office & Study</a>
+            <a href="products.html?cat=outdoor">Outdoor & Garden</a>
+            <a href="products.html?cat=kids">Kids & Baby</a>
+            <a href="products.html?cat=commercial">Hotel & Commercial</a>
+            <a href="products.html?cat=decor">Décor & Accents</a>
+    </div>
+    <div class="mnav__contact">
+      <a href="tel:+254722824703"><svg class="ico" aria-hidden="true"><use href="#i-phone"></use></svg>0722 824 703</a>
+      <a href="https://wa.me/254722824703?text=Hello%20Smart%20Art%20Furniture%20and%20Designs!%20I%20would%20like%20to%20know%20more%20about%20your%20furniture." target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp"></use></svg>WhatsApp us</a>
+      <a href="contact.html#visit"><svg class="ico" aria-hidden="true"><use href="#i-pin"></use></svg>Kiambu Town, Kiambu County, Kenya</a>
+    </div>
+  </div>
+</div>
+
+<!-- Floating actions -->
+<div class="fab-stack">
+  <button class="fab fab--top" type="button" id="backToTop" aria-label="Back to top">
+    <svg class="ico" aria-hidden="true"><use href="#i-chevron"></use></svg>
+    <span class="fab__label">Back to top</span>
+  </button>
+  <a class="fab fab--call" href="tel:+254722824703" aria-label="Call us">
+    <svg class="ico" aria-hidden="true"><use href="#i-phone"></use></svg>
+    <span class="fab__label">Call 0722 824 703</span>
+  </a>
+  <a class="fab fab--wa" href="https://wa.me/254722824703?text=Hello%20Smart%20Art%20Furniture%20and%20Designs!%20I%20would%20like%20to%20know%20more%20about%20your%20furniture." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"></use></svg>
+    <span class="fab__label">Chat on WhatsApp</span>
+  </a>
+</div>
+
+<div class="toast-stack" id="toastStack" aria-live="polite"></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>

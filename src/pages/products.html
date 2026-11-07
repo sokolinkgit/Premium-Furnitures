@@ -1,0 +1,134 @@
+    <!-- ================= PAGE HERO ================= -->
+    <section class="page-hero">
+        <div class="container page-hero__inner">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <a href="index.html">Home</a>
+                <svg class="ico" aria-hidden="true"><use href="#i-chevron"></use></svg>
+                <span>The collection</span>
+            </nav>
+            <p class="eyebrow"><span class="eyebrow__line"></span> 52 pieces · 10 varieties</p>
+            <h1>The full collection</h1>
+            <p>Every furniture variety we build and sell, in one place. Prices are in Kenya Shillings, finishes are your choice, and everything can be made to your measurements.</p>
+            <div class="page-hero__stats">
+                <div><strong>10</strong><span>Furniture varieties</span></div>
+                <div><strong>52</strong><span>Ready designs</span></div>
+                <div><strong>24h</strong><span>Quote turnaround</span></div>
+                <div><strong>47</strong><span>Counties delivered</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= TOOLBAR ================= -->
+    <div class="toolbar">
+        <div class="container toolbar__inner">
+            <div class="chips-scroll" id="catChips" role="group" aria-label="Filter by category"></div>
+            <div class="toolbar__tools">
+                <label class="search-inline">
+                    <svg class="ico" aria-hidden="true"><use href="#i-search"></use></svg>
+                    <input type="search" id="productSearch" placeholder="Search pieces…" aria-label="Search pieces">
+                </label>
+                <label class="select-inline">
+                    <select id="sortSelect" aria-label="Sort pieces">
+                        <option value="featured">Featured</option>
+                        <option value="price-asc">Price: low to high</option>
+                        <option value="price-desc">Price: high to low</option>
+                        <option value="name">Name A–Z</option>
+                        <option value="new">Bestsellers first</option>
+                    </select>
+                    <svg class="ico" aria-hidden="true"><use href="#i-chevron"></use></svg>
+                </label>
+                <button class="filter-chip" id="wishlistToggle" type="button">
+                    <svg class="ico" aria-hidden="true"><use href="#i-heart"></use></svg> Saved
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= PRODUCT GRID ================= -->
+    <section class="section" style="padding-top:0">
+        <div class="container">
+            <div class="results-bar">
+                <p id="resultsCount"></p>
+                <p>Tap any piece for full details · orders via WhatsApp</p>
+            </div>
+
+            <div class="product-grid" id="productGrid"></div>
+
+            <div id="loadMoreWrap" style="text-align:center; margin-top:40px" hidden>
+                <button class="btn btn--ghost btn--lg" type="button" id="loadMoreBtn">
+                    Load more pieces
+                    <svg class="ico" aria-hidden="true"><use href="#i-plus"></use></svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= HELPERS ================= -->
+    <section class="section section--surface">
+        <div class="container">
+            <div class="section-head" data-reveal>
+                <div>
+                    <p class="eyebrow"><span class="eyebrow__line"></span> Buying from us</p>
+                    <h2>How ordering <em>actually works</em></h2>
+                    <p>No checkout maze, no card details. You talk to a person who knows the furniture.</p>
+                </div>
+                <a class="section-head__link" href="contact.html">
+                    Get a quote <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg>
+                </a>
+            </div>
+
+            <div class="info-grid">
+                <div class="info-card" data-reveal>
+                    <span class="info-card__icon"><svg class="ico" aria-hidden="true"><use href="#i-cart"></use></svg></span>
+                    <h3>1 · Add what you love</h3>
+                    <p>Add pieces to the cart or tap “Ask about this” on any product for a one-piece WhatsApp enquiry.</p>
+                </div>
+                <div class="info-card" data-reveal>
+                    <span class="info-card__icon"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp"></use></svg></span>
+                    <h3>2 · Confirm on WhatsApp</h3>
+                    <p>We confirm stock, finish options and the exact delivery cost to your area before you pay anything.</p>
+                </div>
+                <div class="info-card" data-reveal>
+                    <span class="info-card__icon"><svg class="ico" aria-hidden="true"><use href="#i-ruler"></use></svg></span>
+                    <h3>3 · Make it yours</h3>
+                    <p>Choose fabric or wood finish, or send your measurements for a made-to-measure version at a fixed price.</p>
+                </div>
+                <div class="info-card" data-reveal>
+                    <span class="info-card__icon"><svg class="ico" aria-hidden="true"><use href="#i-truck"></use></svg></span>
+                    <h3>4 · Delivered &amp; placed</h3>
+                    <p>In-stock pieces go out in 1–3 days around Kiambu and Nairobi; countrywide in 2–5 days.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CUSTOM CTA ================= -->
+    <section class="section section--soft">
+        <div class="container split split--rev">
+            <div class="split__media" data-reveal="right">
+                <img src="assets/img/craftsman.jpg" alt="Workshop bench with timber, tools and joinery in progress" loading="lazy">
+                <div class="split__badge">
+                    <strong>100%</strong>
+                    <span>Made in Kenya</span>
+                </div>
+            </div>
+            <div class="split__copy" data-reveal="left">
+                <p class="eyebrow"><span class="eyebrow__line"></span> Can't see it here?</p>
+                <h2>If you can describe it, <em>we can build it.</em></h2>
+                <p>Odd corner, extra-long sofa, a wardrobe that must fit under a sloped ceiling, forty identical restaurant chairs — send the brief and we will price it properly.</p>
+                <ul class="check-list">
+                    <li><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg> <span>Free design advice and fabric samples</span></li>
+                    <li><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg> <span>Fixed written quote before production</span></li>
+                    <li><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg> <span>Bulk pricing for hotels, offices, churches and rentals</span></li>
+                </ul>
+                <div class="hero__cta" style="margin-top:0">
+                    <a class="btn btn--primary" href="https://wa.me/254722824703?text=Hello%20Smart%20Art!%20I%20have%20a%20custom%20order%20in%20mind%3A" target="_blank" rel="noopener">
+                        <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"></use></svg> Send us the brief
+                    </a>
+                    <a class="btn btn--ghost" href="tel:+254722824703">
+                        <svg class="ico" aria-hidden="true"><use href="#i-phone"></use></svg> 0722 824 703
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
